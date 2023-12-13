@@ -42,9 +42,11 @@ This backend server is responsible for providing weather information by integrat
 To start the server, run:
 
 ```bash
-npm start  
+npm start
+```
 
-### Starting the Server
+### Testing the Server
 To test the server, run:
-
+```bash
 npm test
+```

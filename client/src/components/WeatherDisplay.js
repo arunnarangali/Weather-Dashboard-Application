@@ -92,7 +92,7 @@ function WeatherDisplay() {
                     <div className="pressure">
                         <FontAwesomeIcon icon={faTornado} />
                         <p>Pressure</p>
-                        <p className='bold'>{weatherData.pressure}Pa</p>
+                        <p className='bold'>{weatherData.pressure}hPa</p>
                     </div>
               </div>
             </div>

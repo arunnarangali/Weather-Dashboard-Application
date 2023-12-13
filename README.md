@@ -74,6 +74,14 @@ This endpoint fetches the current weather information for the specified city.
 - **Parameters:**
   - `cityName` (required): Name of the city for which weather information is requested.
 
+
+
+### Error Handling
+
+<!-- Explanation of how errors are handled -->
+
+- **404 Not Found:** Occurs when the specified city is not found.
+- **500 Internal Server Error:** Generated for any server-related issues or failures in fetching data from the external API.
 #### Response
 
 <!-- Example response from the API -->
@@ -90,11 +98,3 @@ This endpoint fetches the current weather information for the specified city.
   "pressure": "Pressure in hPa"
  
 }
-
-
-### Error Handling
-
-<!-- Explanation of how errors are handled -->
-
-- **404 Not Found:** Occurs when the specified city is not found.
-- **500 Internal Server Error:** Generated for any server-related issues or failures in fetching data from the external API.

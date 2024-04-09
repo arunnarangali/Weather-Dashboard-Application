@@ -13,7 +13,7 @@ function WeatherDisplay() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const apiUrl = `https://weather-dashboard-application-backend.vercel.app/${city}`;
+    const apiUrl = `https://weather-dashboard-application-back-end.vercel.app/${city}`;
 
     try {
       const response = await axios.get(apiUrl);

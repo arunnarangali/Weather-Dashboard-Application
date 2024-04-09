@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-  origin:"https://weather-dashboard-application-two.vercel.app",
+  origin:"https://weather-dashboard-application-ruddy.vercel.app",
  credentials:true, 
 }))
 dotenv.config();
